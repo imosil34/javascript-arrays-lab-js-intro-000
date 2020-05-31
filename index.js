@@ -18,6 +18,6 @@ function appendKitten(name){
   return addKitten;
 }
 function prependKitten(name){
-  var reKitten = kittens.unshift();
+  var reKitten = kittens.push();
   return reKitten;
 }
