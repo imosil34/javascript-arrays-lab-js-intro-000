@@ -35,5 +35,5 @@ return kittens.slice(0,kittens.length-1)
 //Arrays removeFirstKitten() removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged:
 functions removeFirstKitten(){
   return kittens.slice();
-  
+
 }
