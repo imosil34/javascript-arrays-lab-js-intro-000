@@ -18,6 +18,6 @@ function appendKitten(name){
   return addKitten;
 }
 function prependKitten(name){
-  var reKitten = [...kittens,name];
+  var reKitten = [name, ... kittens];
   return reKitten;
 }
